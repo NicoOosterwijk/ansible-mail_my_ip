@@ -15,9 +15,21 @@ change this to your required values.
 None.
 
 
-# License
+## Example Playbook
+
+    - hosts: centos
+      become: true
+    
+      vars:
+        from_address: whoever@host.com
+        to_address: to_my_address@mailhost.com
+    
+      roles:
+        - nicooosterwijk.ansible_mail_my_ip
+
+## License
 
 BSD
 
-# Author
+## Author
 This role was created by [Nico Oosterwijk](mailto:nico@digitalinfo.nl)

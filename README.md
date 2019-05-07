@@ -4,9 +4,11 @@ This playbook will capture the IP address(es) and mail it to the addressee, defi
 
 ## Variables
 In the defaults you will find the variables:
-- from_address
-- to_address
 
+    from_address: whoever@host.com
+    to_address: to_my_address@mailhost.com
+
+change this to your required values.
 
 ## Dependencies
 

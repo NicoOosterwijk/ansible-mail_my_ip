@@ -2,15 +2,8 @@
 
 This playbook will capture the IP address(es) and mail it to the addressee, defined in the variables.
 
-### Execute ###
-Pull this repository to your local machine and enter the following command:
-```sh
- $ ansible-playbook site.yml
-```
-- Check your mail!
-
 ## Variables
-In the role-defaults you will find the variables:
+In the defaults you will find the variables:
 - from_address
 - to_address
 

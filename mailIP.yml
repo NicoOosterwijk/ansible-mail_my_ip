@@ -1,0 +1,7 @@
+---
+- name: Mail me the IP address
+  hosts: all
+  gather_facts: False
+  roles:
+    - { role: common, tags: 'common' }
+

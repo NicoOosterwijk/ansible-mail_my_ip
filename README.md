@@ -7,15 +7,10 @@ In the defaults you will find the variables:
 - from_address
 - to_address
 
-Add your values to it.
-
-In the group_vars you can enter the ansible-ssh and -password values, by default it is using vagrant/vagrant to be used by the deployment of a Vagrantfile.
-See this project: https://github.com/NicoOosterwijk/vagrant-mail_my_ip 
 
 ## Dependencies
 
 None.
-
 
 
 # License
